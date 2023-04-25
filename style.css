@@ -1,6 +1,9 @@
 :root{
     --bg-light-site:"white";
     --bg-light-cont: rgb(233, 229, 229);
+    --bg-dark-site:"black";
+    --bg-dark-cont: rgb(38, 37, 37);
+    
 }
 
 
@@ -44,4 +47,24 @@ font-size: 20px;
     }
 
 }
+@keyframes minchardark {
+    10%{
+        color: rgb(255, 0, 0);
+        
+       
+       
 
+    }
+    100%{
+        color:white;
+        opacity: 0.5;
+      
+
+    }
+
+}
+#theme{
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
