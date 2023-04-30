@@ -47,7 +47,7 @@ window.addEventListener("load",()=>{
   if(!localstoregetheme){
     localStorage.setItem("theme", "light");
   }
-  console.log(localstoregetheme)
+
 
  
   
@@ -63,8 +63,7 @@ themechanger()
 themebtn.addEventListener("click" ,() =>{
  themebtn.classList.toggle('bx-sun')
  themebtn.classList.toggle('bx-moon')
-//  console.log(themebtn.classList)
-//  console.log(themebtn.className)
+
 if(themebtn.classList=="bx sun me-3 bx-moon"){
   localStorage.setItem("theme", "dark");
   themechanger()
@@ -83,7 +82,7 @@ if(themebtn.classList=="bx sun me-3 bx-sun"){
 
 btnsubmit.addEventListener("click", () => {
   //    firstnamelenght=Number(firstInput.value.length)
-  //    console.log(firstnamelenght)
+
   
   let regexresultuser1=regexusers.test(firstInput.value)
   let regexresultuser2=regexusers.test(secInput.value)
@@ -150,6 +149,11 @@ function themechanger(){
 
      socialtxt.classList.remove("text-muted")
      socialtxt.classList.add("text-secondary")
+
+     
+    container.classList.remove('cont')
+     container.style.boxShadow=' 0px 0px 47px 8px rgb(246, 243, 243, 0.35)';
+
     
      
     
@@ -178,7 +182,12 @@ function themechanger(){
 
      socialtxt.classList.remove("text-secondary")
     socialtxt.classList.add("text-muted")
-    console.log(socialtxt.classList)
+
+    container.style.boxShadow=' 1px 1px 39px 2px rgba(0,0,0,0.32)';
+    
+    
+    
+   
      
      
     

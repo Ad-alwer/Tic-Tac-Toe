@@ -1,0 +1,105 @@
+:root{
+    --bg-light-site:"white";
+    --bg-light-cont: rgb(233, 229, 229);
+    --bg-dark-site:"black";
+    --bg-dark-cont: rgb(38, 37, 37);
+    
+}
+
+
+
+div.container a img{
+    width: 60px;
+}
+div.container i{
+    transform: scale(1.6);
+}
+#cont{
+   
+    background-color:var(--bg-light-cont) ;
+    margin-top: 70px;
+    
+}
+#gamename{
+    text-align: center;
+}
+#tiktoe{
+    width: 450px;
+    height: 450px;
+    
+}
+
+
+input{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #024138 ;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    padding: 0;
+    
+    font-size: 120px;
+   
+    
+    
+    
+    
+    
+}
+
+#showplayer1{
+    width: 150px;
+    height: 150px;
+   
+}
+#showplayer2{
+    width: 150px;
+    height: 150px;
+   
+}
+#theme{
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+#rateshower2,#rateshower1{
+    text-align: center;
+    font-size: 78px;
+}
+#pl1name,#pl2name{
+    margin-top: 0;
+    display:table;
+       margin:0 auto;
+       text-transform: capitalize;
+}
+
+@keyframes clickred {
+    75%{
+        border: 5px solid red ;
+    }
+    100%{
+        border: 3px solid #024138 ;
+    }
+
+
+}
+@keyframes clickblue {
+    75%{
+        border: 5px solid blue ;
+    }
+    100%{
+        border: 3px solid #024138 ;
+    }
+
+
+}
+
+
+
+
+
+
+   
+
